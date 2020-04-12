@@ -1,0 +1,21 @@
+{
+	"pluginName": "BigBang",
+	"description": "BigBang",
+    "main": "index.html",
+    "author": "Limexb",
+	"version": "0.0.1",
+	"features": [
+	    {
+			"code": "BigBang",
+			"explain": "大爆炸",
+	        "cmds":[
+                "BigBang", "大爆炸",
+                {
+                  "type": "regex",
+                  "label": "文本正则匹配",
+                  "match":"[\u4e00-\u9fa5]"
+              }
+            ]
+	    }
+	]
+}
